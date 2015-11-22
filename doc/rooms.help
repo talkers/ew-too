@@ -1,0 +1,52 @@
+
+       Rooms:
+ 
+As you know, resident means one who resides, or has a dwelling.  And 
+that applies to here too.  You have been given a room to call home and the 
+capability to create 1 additional room.  You can also link your room to 
+others' rooms to access them as easily as any other exit.
+ 
+To go to your room, type 'home'
+Once you enter your room for the first time, type:  room  and you will 
+now be able to enter specific commands to modify your room.
+ 
+In the room mode, the following commands can be used:
+ 
+  sethome  -- This makes a room your home.  This is the room you will 
+              arrive at when you type:  home. 
+ 
+  edit     -- Takes you into the standard editor where you may enter 
+              a description for your home or subsequent rooms.
+ 
+  open     -- Toggles whether or not a room is open to everyone or just 
+              to those on your invite entry.
+ 
+  lock     -- Toggles whether a room is locked or not.  If it is locked
+              then only people with keys, or the owner, can enter it.
+
+  bolt     -- This shuts the room of totally to anyone except the owner.
+
+[+ -] exit -- To add or remove an exit to a room.  
+ 
+  create   -- To create a new room.  This will tell you the new room id, 
+              enabling you to link it to your home. 
+ 
+  linkable -- This allows other people to be able to make links from
+              your rooms.
+ 
+  link     -- Creates exits between two rooms, be they in your own home 
+              or between two friends' homes.  Type:  link <room id>
+ 
+Once you've set up your home, creating your rooms are just as easy.  If 
+you type "exits" within a room you can see where you can go.  This 
+applies to anywhere on the prog.  For example, if you typed "exits" and saw:
+ 
+                 party -->  at Sheila's Party Palace 
+ 
+and wanted to get there, type:  go party
+ 
+Whether you're allowed to these rooms is up to the owner...
+ 
+Again, if you want to get back to the hilltop, type:  leave
+
+     ----------------------------------------------------------------

@@ -1,0 +1,58 @@
+
+    Lists:
+ 
+As a resident, you are given a list which may consist of 25 people that 
+you would like to know special information about or give special 
+privileges.  Many of the entries you may never use, and you may 
+eventually wish you had more list spaces.  This is normal.
+ 
+List entries are toggled by typing the command followed by the name of 
+the player you select.  These are the different entries offered on your 
+list:
+ 
+  Noisy  -- The player can still talk or emote to you even if you are 
+            blocking tells, and/or earmuffs.
+ 
+  Ignore -- Just as it seems; you will not receive any tells or remotes 
+            from this player and, in turn, the player will see only that 
+            you are ignoring her/him or will see an ignoremessage that 
+            you have set.
+ 
+  Inform -- You are able to see when the player connects and disconnects.
+            May be accompanied by "beep."
+ 
+  Grabme -- This allows the other person to grab you from one room to
+            the one that they are in.  You can be grabbed into 'closed'
+            rooms, but not 'locked' rooms.
+
+  Friend -- The player is your friend; she/he is listed when you type 
+            "fwho" and will receive any "tell friends" messages.  And it 
+            gives 'em a warm, fuzzy feeling.
+ 
+  Bar    -- Stops the player from entering any of your rooms
+ 
+  Invite -- Allows the player into any of your rooms that are closed to 
+            invites only.
+ 
+  Beep   -- Sounds a little beep when the player connects or disconnects.
+ 
+  Block  -- Blocks tells and remotes from the player to you, but not 
+            anything they do within the same room as you.
+ 
+  Key    -- Allows the player to lock your room, enter your locked room 
+            and do a few other things to your room, just as if it were 
+            their room, too.
+ 
+  Find   -- Allows a player to find you even if you're hidden.
+ 
+You can view your list by typing:  list            : for your whole list
+                                   list <person>   : for your entry for
+                                                     <person>
+
+Other list commands: check entry <person>
+                     clist
+                     qwho
+                     rlist
+                     tlist
+
+     ----------------------------------------------------------------

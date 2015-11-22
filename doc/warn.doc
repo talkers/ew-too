@@ -1,0 +1,15 @@
+
+  warn - This command is used, rather unsurprisingly, to warn people.  It's
+		similar to a tell, except that it comes highlighted, with a
+		beep, and blank lines above and below, and it's not blockable.
+		Oh, and it's logged, so if you can make it vaguely amusing as
+		well as being for a serious purpose, it'll be more interesting
+		for the person reading the logs.  DON'T use this command
+		frivolously, though - if someone is ignoring you, then mail
+		them, or get someone else to talk to them.  This command
+		should ONLY be used if someone is being abusive, offensive,
+		or annoying to other users in general, and hasn't responded
+		to polite requests.
+
+  Format: warn <name> <warning message>
+

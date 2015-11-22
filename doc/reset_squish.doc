@@ -1,0 +1,9 @@
+
+  reset_squish - This command can be used on someone after they've been
+		squished, and will allow them to reconnect before the time
+		indicated in the original squish time has elapsed.  Especially
+		if you mistyped and squished someone for 100 minutes instead
+		of the 10 you meant. :)
+
+  Format: reset_squish <name>
+

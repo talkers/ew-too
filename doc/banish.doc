@@ -1,0 +1,13 @@
+
+banish - This command should be used with EXTREME caution, because - spookily
+		enough - it banishes someone from the program.  Yes, that's
+		right, it stops them from logging in with that character ever
+		again (well, unless they get unbanished).  Essentially, this
+		command should only be used on resident characters who are
+		consistently abusive and offensive - as a rough guide, if
+		they've failed to get a clue after you've warned them,
+		squished them, and warned them AGAIN for being abusive, it's
+		probably about time to dust off your banish command.
+
+  Format: banish <name>
+

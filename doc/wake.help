@@ -1,0 +1,6 @@
+
+    wake    - Sends a beep and a message that you wish to speak to a 
+              specified person.
+
+      Format:  wake <whomever>
+

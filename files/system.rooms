@@ -1,0 +1,30 @@
+#
+#  These rooms must be around, they are integral
+#	 parts of the program.
+#
+# The descriptions can be changed, but the rooms themselves
+# MUST exist.
+#
+prison
+incarcerated in the Lockup.
+gets dragged into prison.
+A cold grey, lifeless cell. The only illumination is a weak light filtering
+in through a heavily barred window. No door allows you to escape, indeed the 
+only way out is to plead with one of the admin. If your here, then you must
+have done something real baaaad ...
+#
+end
+end
+#
+void
+stuck in the empty Void.
+vanishes into The Void.
+You are surrounded by the grey swirling mists of the void. Cold, damp
+mists that seep into your very bones, permeating your very existance.
+You feel yourself drawn inexplicably away from this lifeless place
+into the fire of existance. Leave now while you still can ...
+#
+ewtoo.entrance
+end
+end
+#

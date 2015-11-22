@@ -1,0 +1,67 @@
+  EW-too 101: the basics
+ 
+EW-too is basically set up just like a large party that covers a 
+hilltop to a veritable neighbourhood of little homes.  Basically you 
+communicate with others in a series of actions or actual comments.  
+Comments are varied from private whispers to shouts that ring over the 
+entire hilltop.  Here's a basic list of communication commands.  The 
+best way to see how to use them is to simply type the command by itself, 
+and you will see the proper way to use the command.
+ 
+Commands to everyone in a room:   say (what you want to say)
+                                  emote (an action)     
+                                  shout (a word or words to everyone on EW-too)
+                                  pemote (possessive action)                    
+               
+                                  echo (a word or words anonymously)
+
+                                  For instance: 
+                                      Xolf types 'say Peachy Keen'
+			          everyone in the room sees:
+                                      Xolf says 'Peachy Keen'
+
+Commands to specific people:      tell (a player a word or words)
+                                  remote (an action to a player)
+                                  whisper (words to someone in the room)
+                                  premote (possessive actions to someone)
+                                  recho (words anonymously to someone)
+
+                                  For instance:
+                                     Chris types 'tell andie spang'
+                                  Andie alone sees:
+                                     Chris tells you 'spang'
+
+NOTE: With directed commands such as these, you don't have to type in
+      the full name of the person you are sending it to.  For instance,
+      Chris types 'tell an spang'  the program will fill in the rest 
+      and sent the message to Andie, as long as there is no one else on
+      the program who's name starts with an.
+	
+ The converse mode (toggled by typing: converse) sets everything you type 
+to be automatically said out loud, just as if you had preceded the words 
+with "say."  Other commands must be preceded with a slash /. Best used 
+when in a private room.
+ 
+You can also give other players an opportunity to learn about you if 
+they're too shy to ask you themselves through prefix, title, examine 
+listing and finger.
+ 
+Prefix precedes your name, such as:    Darc Burble
+Title comes after your name, such as:    Grim is a happy spod
+ 
+You can set a description of up to 2 lines about yourself by typing:
+   description <what you want seen by others, exactly as you want it seen>
+ 
+You can set a plan the same way as you set a description, to be shown 
+when others "finger" your character.
+ 
+Finally, you can set a message that others see when you walk into a 
+room, called an enter message, such as:  JoeBlow waltzes in
+ type:   entermsg <whatever will follow your name>
+ 
+If you're lost and want to get back to the hilltop, type:  leave
+ 
+If you need more help, consult a help file or a superuser, or failing
+that, just type 'commands' and experiment.
+
+     ----------------------------------------------------------------

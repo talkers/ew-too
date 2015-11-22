@@ -1,0 +1,16 @@
+
+  list_res - a command to display all the names in the playerfiles starting
+		with a certain letter.  Goodness only knows why you'd need to
+		do that, but Burble in his infinite wisdom decided it was a
+		Good Idea, and so you can.  The output is formatted in three
+		columns - a hash number (don't worry about it, it's used for
+		bookkeeping by the program), a name, and a list of *'s, each
+		of which represents a specific priv.  If you get REALLY
+		bored, I suppose you could always try and work out which
+		asterisk represents which priv.  Note that the further to the
+		right a priv is, the more it's "worth" in determining who
+		outranks who, for things like being able to squish or
+		remove_shout someone.
+
+  Format: list_res <letter>
+

@@ -1,0 +1,10 @@
+
+  splat - squish's sexier cousin command, which is functionally almost
+		identical to squish.  The difference is that rather than just
+		preventing that one person from logging in for a time, you
+		prevent everyone from that SITE from logging in for the
+		specified time.  Needless to say, if you abuse this one, we'll
+		be having your dangly bits for earrings pretty sharpish.
+
+  Format: splat <name> <time>
+

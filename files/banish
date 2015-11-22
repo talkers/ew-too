@@ -1,0 +1,20 @@
+# Banish file
+#
+# # is a comment line, blank lines are ignored
+#
+# Use 	C for complete close
+# 	N for email registration (i.e. must have resident char)
+# 
+# its a good idea to have a comment line for each site
+
+# sample ban (single machine)
+123.456.678.790		N
+
+# Class C ban (normal sites)
+123.456.678.*		N
+
+# Class B ban (larger sites and net providers)
+123.456.*.*		N
+
+# Network ban, not a good move
+# 123.*.*.*		N

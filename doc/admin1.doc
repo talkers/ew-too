@@ -1,0 +1,49 @@
+
+Heres a (relatively) complete list of what someone with all the privs
+can do ...
+
+Please make special note of areas marked with a *
+These commands are very open to abuse and should be used with lots of
+caution, and only in special circumstances.
+
+
+Simon (and Chris)
+
+boot 			- works on anyone anywhere
+		          with special case for hilltop
+banish 		      	- Logs a name off (if it is on) and stops
+			  it being used again. 
+blankpass 		- blank the password of someone
+change_mail_limit 	- changes maximum number of mails a person can
+			  send (note news posting is not limited)
+change_exit_limit	- change the max number of exits someone can use
+change_auto_limit	- change the max number of auto messages
+			  someone can have
+change_list_limit	- change max number of list entries
+change room_limit	- change max number of rooms someone can have
+crash			- crash the program (yes it really works, don't
+			  try it)
+dump			- sync ALL notes (mail/news) to disk. (be
+			  prepared for noticeable delay 10 secs or so?)
+examine			- also lists email address (even if private)
+emergency		- su's get notified of anyone using the
+			  emergency command
+eject			- eject a non resident, a reason must be given 
+			  ejects are logged in the ejects.log file
+grab			- no restrictions on who you can grab, and
+			  into where
+grant			- add a permission (any permission as long as
+			  you have it) to someone (should remain an
+			  admin function) Someone doesn't need to be on
+			  the program either ...
+goto			- bit like trans but lower level
+lag 			- Stops the person from doing anything for a set time
+list			- allows argument of a player to look at
+			  someone else's list
+lock			- admin can lock any room
+list_res		- list residency files for players beginning
+			  with arg, list shows hash value, name and
+			  residency status.
+list_notes		- list the notes tables (mail/news) argument
+			  is a number (0-40 at mo). News articles show
+                          header and a +, mail has flags and a -

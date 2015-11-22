@@ -1,0 +1,18 @@
+
+   reply   - This sends a reply, in the form of a tell, to all of the people
+             that last told something to you, if it was directed to more
+             than one person.
+             For example, if you get told this:
+               Grim exclaims to Xolf, you and Andie 'fribble sping!'
+
+             Then if you do:
+	       reply plink
+ 
+             It's as if you've done a:
+               tell grim,xolf,andie plink
+
+             And you get
+               You tell Grim, Xolf, and Andie 'plink'
+
+
+

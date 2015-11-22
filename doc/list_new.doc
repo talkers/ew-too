@@ -1,0 +1,8 @@
+
+  list_new - Returns a list of all connected 'newbies', ie, users who are new
+		and not as-yet residented.  If you didn't know what 'newbies'
+		meant, and actually needed that explanation, which planet have
+		you been living on for the past year?
+
+  Format: list_new
+

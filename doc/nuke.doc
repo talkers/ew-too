@@ -1,0 +1,11 @@
+
+nuke - A command to use with lots of caution, as it wipes a playerfile
+		completely.  Yup, that's right - if you nuke someone, they'll
+		be a newbie if they log in again with that name.  It's NOT
+		reversible (unless someone digs around in backup files), so
+		DON'T use it unless it's really really necessary.  (Usually,
+		banish is a better bet, since at least admin can undo that.
+		In theory, anyway. :) ).
+
+  Format: nuke <name>
+

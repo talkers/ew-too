@@ -1,0 +1,14 @@
+
+  squish - The big brother of the 'eject' command, it's essentially the same,
+		apart from three shinier features.  One, it doesn't need to be
+		given a reason, since by this time we assume you know what
+		you're doing.  Two, it'll throw anyone who has less privs than
+		you off the program, whether they're a newbie, a resident, or
+		a superuser.  And three, you can specify a time that the named
+		person shouldn't be allowed to connect for, in minutes
+		(default time is a minute).
+
+  Format: squish <name> <time>
+
+
+

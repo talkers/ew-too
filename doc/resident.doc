@@ -1,0 +1,14 @@
+
+  resident - This is one of your more important commands.  What it does, is to
+		grant the status of 'resident' to a newbie.  This means, they
+		are given enough privs to allow them to have a password, two
+		rooms, a list, to use the echo command, to send mail, and to
+		post news.  In other words, to make them into what you used to
+		be before you became a SU.
+		If you suspect that a newbie is actually someone who's already
+		a resident, trying to get themselves a second character, then
+		don't make them a resident - get an advanced superuser or an
+		administrator to decide.
+
+  Format: resident <name>
+

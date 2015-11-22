@@ -1,0 +1,35 @@
+#!/usr/local/bin/tcsh -f
+
+set pathdir="/your/home/directory/EW-too/"
+
+cd $pathdir/bin
+
+#If the angel and the server are BOTH down, then rerun the angel.
+if ( "`ps -x | egrep '(angel)'|egrep 2010|egrep -v egrep`" == "" && \
+ "`ps -x|egrep '(ew-three)'|egrep 2010|egrep -v egrep`" == "" ) then
+
+        angel &
+        exit 0
+endif
+
+#If the angel and the server are both UP, exit
+
+if ("`ps -x|egrep '(angel)'|egrep 2010|egrep -v egrep`" != "" && \
+ "`ps -x|egrep '(ew-three)'|egrep 2010|egrep -v egrep`" != "" ) then
+#        echo both alive
+        exit 0
+endif
+
+#If one or the other is down, send error.
+
+#echo "+++++" >> $pathdir/BOOTERROR
+#echo "Boot failed because either the angel or the server was already alive" >> \
+$pathdir/BOOTERROR
+#echo `date` >> $pathdir/BOOTERROR
+#echo "Error is :" >> $pathdir/BOOTERROR
+if ( "`ps -x|egrep '(angel)'|egrep 2010|egrep -v egrep`" != "" ) then
+#        echo "Angel ALIVE" >> $pathdir/BOOTERROR
+endif
+if ( "`ps -x|egrep '(ew-three)'|egrep 2010|egrep -v egrep`" != "" ) then
+#        echo "Server ALIVE" >> $pathdir/BOOTERROR
+endif

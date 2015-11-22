@@ -1,0 +1,6 @@
+
+ ignoremsg - What ignored people see when they try to tell or remote 
+             something to you.    
+
+      Format:  ignoremsg <what others will see>
+

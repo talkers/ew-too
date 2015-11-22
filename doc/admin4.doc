@@ -1,0 +1,56 @@
+
+mail :
+
+view			* same as 'check mail'
+sent			* similar to view, except for mail someone has
+			* sent 
+
+
+news :
+
+view			- same as 'check news'
+
+
+room :
+
+transfer		- transfer the ownership of the current room
+			  to someone else.
+
+
+* Also be aware, that no checks are made when an admin character moves
+* from room to room. This allows entrance into a room that your not
+* invited into etc etc
+* Use with care, as confidence in the program could be damaged by
+* abuse of this facility
+
+
+Grant levels :
+
+base   		- without this, they aren't deemed a resident 
+list    	- allows list use
+echo		- allows echoing
+mail		- allows mail use
+build		- allows room editing
+residency	- a combination of all the above (there are separate
+		  privs in the general residency so that they can be
+ 		  REMOVED later if abused [for instance mail could be
+                  removed for someone sending abusive mail])
+		  remember, residency should be added using the
+		  'resident' command as opposed to granting it
+see_inet	- be able to list inet addresses
+see_echo	- allow use of 'seeecho' command
+eject		- allow use of eject command for ejecting non
+		  resident. (with any priv above or including eject
+		  the person is considered a superuser [ie they see su
+		  messages])
+squish		- allow use of the squish command (eject on anybody)
+r_only		- allow use of the resident command (for granting res
+		  to non ressies)
+
+there will be a general superuser priv in here at this point somewhere
+(sometime)
+
+grant           - this shouldn't really be a separate priv, it should
+                  be included in admin, please don't grant to non admin
+admin           - the top priv.
+

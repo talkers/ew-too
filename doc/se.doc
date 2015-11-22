@@ -1,0 +1,8 @@
+
+  se (su: su ;) - To 'emote' a message to all connected SU's.  A relative of
+		the 'su' command, which was added by Chris when the SU channel
+		became far more 'chatty' than Burble originally thought it was
+		going to be.  It's used in the same way as the su command.
+
+  Format: se <message>
+

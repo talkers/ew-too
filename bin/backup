@@ -1,0 +1,74 @@
+:
+#  Backup the files (hody hum)
+
+# Get rid of the gzip default
+GZIP="-9 -q"
+export GZIP
+path="/your/home/directory/EW-too"
+files=`date '+.%h.%d.tar'`
+pfile="P$files"
+nfile="N$files"
+rfile="R$files"
+
+cd $path/files/players
+if [ -s $pfile -o -s "$pfile.gz" ]
+then
+ echo "Error: $pfile(.gz) exists.   `date '+%H:%M - %d %h'`" >> $path/ERROR
+else
+ tar cf $pfile ?
+ /usr/local/bin/gzip $pfile
+ chmod 400 "$pfile.gz"
+fi
+
+cd $path/files/notes
+if [ -s $nfile -o -s "$nfile.gz" ]
+then
+ echo "Error: $nfile(.gz) exists.   `date '+%H:%M - %d %h'`" >> $path/ERROR
+else	
+ tar cf $nfile hash* track
+ /usr/local/bin/gzip $nfile
+ chmod 400 "$nfile.gz"
+fi
+
+cd $path/files
+if [ -s $rfile -o -s "$rfile.gz" ]
+then
+ echo "Error: $rfile(.gz) exists.   `date '+%H:%M - %d %h'`" >> $path/ERROR
+else	
+ tar cf $rfile rooms
+ /usr/local/bin/gzip $rfile
+ chmod 400 "$rfile.gz"
+fi
+
+# rm some of the older ones (have two only hanging around)
+
+cd $path/files/players
+number=`ls -lt P* | wc -l`
+if [ $number -gt 3 ]
+then
+ file=`ls -t | grep P. | tail -1`
+ rm -f $file
+else
+ echo "Error: Only $number P backups.     `date '+%H:%M - %d %h'`" >> $path/ERROR
+fi
+
+cd $path/files/notes
+number=`ls -lt N* | wc -l`
+if [ $number -gt 3 ]
+then
+ file=`ls -t | grep N. | tail -1`
+ rm -f $file
+else
+ echo "Error: Only $number N backups.     `date '+%H:%M - %d %h'`" >> $path/ERROR
+fi
+
+cd $path/files
+number=`ls -lt R* | wc -l`
+if [ $number -gt 3 ]
+then
+ file=`ls -t | grep R. | tail -1`
+ rm -f $file
+else
+ echo "Error: Only $number R backups.     `date '+%H:%M - %d %h'`" >> $path/ERROR
+fi
+

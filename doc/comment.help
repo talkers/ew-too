@@ -1,0 +1,6 @@
+
+  comment  - Sets your comment on the current session or resets your 
+             comment to nothing.
+
+      Format:  comment <whatever>
+

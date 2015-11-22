@@ -1,0 +1,9 @@
+
+  list_su - Returns a list, somewhat like a who list, showing all the
+		connected SuperUsers and their relative status (basic,
+		advanced, admin). If they're on, but offduty, they'll still be
+		listed, but will also have the note 'Off Duty atm.' next to
+		them. (atm = at the moment).
+
+  Format: list_su
+

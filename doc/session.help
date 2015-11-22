@@ -1,0 +1,6 @@
+
+    session - Resets the session to your indicated topic.  A comment for the
+              session can then be set with the 'comment' command.
+
+      Format:  session <whatever>
+

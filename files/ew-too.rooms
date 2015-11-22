@@ -1,0 +1,47 @@
+#
+# # is a comment line
+#
+#  rooms take the following form
+#
+#  id
+#  name
+#  enter msg
+#  description, ending with a blank # on a newline
+#  exits, ending with 'end'
+#  auto messages, ending with 'end'
+#
+#
+sample1
+in a sample room.
+enters sample room1
+A sample room.
+#	
+ewtoo.entrance
+ewtoo.sample2
+end
+end
+#
+sample2
+in sample room2.
+enters sample room2.
+Another simple sample room, this time with automessages
+#	
+ewtoo.sample1
+ewtoo.entrance
+end
+Auto-message1
+Auto-message2
+Auto-message3
+end
+#
+entrance
+in the entrance room.
+enters the entrance room.
+A simple entrance room.
+#	
+ewtoo.sample1
+ewtoo.sample2
+end
+end
+#
+

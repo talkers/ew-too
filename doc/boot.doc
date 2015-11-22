@@ -1,0 +1,16 @@
+
+  boot - This command changes a little with your superuser status.  Whereas
+		before, it could only be used to throw someone out of your
+		own rooms, you may now also use it to kick someone from the
+		hilltop into a dark room (which is about six rooms away from
+		the hilltop), and they'll be prevented from trans'ing or
+		visiting for a minute or two to prevent them from returning
+		immediately.  You'll only be able to boot people _below_ your
+		own priv level, however.  Use this command if someone's being
+		abusive or offensive on the hilltop, and you don't think it
+		fully warrants an eject (or, of course, if the person being
+		abusive is a resident, and you're a basic SU who can't use
+		the squish command).
+
+  Format: boot <name>
+

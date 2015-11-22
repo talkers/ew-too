@@ -1,0 +1,7 @@
+
+  site - This command will show you all the people logged on from about the 
+		same site as <person>.  It also shows you if they have set
+		a password, and what it is, if it's not private.
+
+  Format: site <name>   or   site <inet number>
+

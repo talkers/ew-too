@@ -1,0 +1,118 @@
+
+Heres what all the important stuff in the bin directory does ...
+
+account		- this script is called automatically by the server at
+		  regular intervals (currently 3 o'clock every
+		  morning). It makes backups of the player and note
+		  directories. The script may be run on its own, to
+		  make a backup if you think something may go
+		  disastrously wrong in the near future.
+angel		- this is small C program to act as the server
+		  'guardian angel'. It runs a loop, constantly booting
+		  the server if it ever goes down. It logs any reasons
+		  that the server might have gone down, if the
+		  server itself can't trap them. It also automatically
+		  'nices' itself and the server. As long as an
+		  angel process is running, the server will reboot
+		  when it goes down.
+boot		- this is what should be run to boot up ew-too. It
+		  first checks to see if there is an angel running
+		  already, if there is it wont boot. If not it will
+		  run an angel to start booting up the server.
+ew-too		- this is the server itself. It may be run on its own
+		  with argument of a port number and it will boot onto
+		  that port. If you want the server to reboot itself
+		  and not die when it goes down, use 'boot' or an
+		  'angel' instead of running directly. Should only be
+		  run directly for testing purposes.
+swap		- this is a copy of the ew-too binary.
+aswap		- this is a copy of the angel binary.
+
+
+How to bring up and shutdown from outside the program.
+
+To bring up EW-too on the default port, simply run :
+
+	boot
+ 
+This will automatically background and start all the necessary
+processes.
+
+
+Preferably the program should be shutdown from inside using the
+'shutdown' command. However the following kills may be used to bring
+down from outside if necessary. All kills need a process number of
+either the server, or of the angel, which can be found using ps -x
+
+
+	kill -HUP 	on the server process
+
+This is trapped, and tries to bring the server down gracefully,
+syncing all files etc. It doesn't affect any angel processes, so if one
+is running, the server will boot back automatically. It is effectively
+equivalent to doing a 'shutdown' command.
+
+	kill 		on the server process
+
+A slightly less gentle kill, as soon as the kill is received it will
+core dump, and then try to exit, syncing all files. Do this if the
+program hangs or if something is wrong, so that the core can be
+analysed later.
+
+	kill -9		on the server process
+
+Force kill, this WILL bring the server down, no matter what. No files
+are saved, or core dumps done, it simply bombs straight out. Use only
+as a last resort.
+
+	kill		on the angel process
+
+This will make the angel process die without affecting the server
+process. Used to kill the angel before shutting everything down
+for a binary swap/update.
+
+	kill -HUP	on the angel process
+
+This is a graceful shutdown to the whole thing. First the server is
+sent the HUP signal so that it dies after syncing all files etc (see
+kill -HUP on server), then the angel will also exit, thus preventing
+any reboot.
+
+	kill -9		on the angel process
+
+Force kill, guaranteed to kill the angel. Should never be needed as a
+straight 'kill' with no args should always work. Doesn't affect the
+server.
+
+
+
+How to do a binary swap.
+
+This is used for updating the binary for new versions etc.
+
+
+	Warn people on the prog that it will be going down for a
+	reboot.
+
+	chmod u+x swap
+
+(this makes it so the new binary is executable and can be run)
+
+	kill the angel process 
+
+(straight kill without any of the fancy - bits, prevents the server
+from rebooting)
+
+	shut the server down using the 'shutdown' command
+
+	wait for the server to completely exit
+
+(can check using ps -x. If a server process still exists, don't do anything)
+
+	mv swap ew-too
+
+(replace the old binary by the new one)
+
+	boot
+
+(start the booting process to bring everything back up)

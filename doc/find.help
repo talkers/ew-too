@@ -1,0 +1,6 @@
+
+  find     - Toggles list entry allowing a person to see where you are 
+             even if you are hiding.
+
+      Format:  find <whomever>
+

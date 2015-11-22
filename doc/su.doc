@@ -1,0 +1,9 @@
+
+  su - To send a message to all connected SU's.  It was originally written by
+		Burble, and intended to be for purely administrative sort of
+		talk, but you'll find it gets used for more general chat these
+		days.  Anyway, the command to talk on the SU channel is this
+		one, and it's pretty easy to use.
+
+  Format: su <message>
+

@@ -1,0 +1,7 @@
+
+  exclude  - Sends a tell to everyone in the room but the person you 
+             exclude.  The excluded person sees nothing, but the 
+             others see who you have excluded with your tell.
+
+      Format:  exclude <whomever> <whatever>
+

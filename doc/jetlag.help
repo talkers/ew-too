@@ -1,0 +1,6 @@
+
+   jetlag  - Adjusts the time to fit your area.  When you list the time, 
+             you will also see what the current time is in your zone.
+
+      Format:  jetlag < + or - number of hours from local time>
+

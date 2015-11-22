@@ -1,0 +1,7 @@
+
+    key    - Toggles list setting that allows the indicated person to 
+             lock your room, enter your locked room and do a few other 
+             room changes.
+
+      Format:  key <whomever>
+

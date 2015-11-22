@@ -1,0 +1,10 @@
+
+  reset_session - This command can be used to reset the session counter, and
+		allow the session to be reset before the normal time limit has
+		expired.  It's not just so that you can set a session whenever
+		you feel like it (and you'll get a proper telling-off if you
+		do use it like that) - it's so that an offensive session can
+		be changed.
+
+  Format: reset_session
+

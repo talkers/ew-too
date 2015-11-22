@@ -1,0 +1,22 @@
+
+	Okay, so, now you're a Basic SuperUser, what do you do?  Well, the
+main task you will have as a member of staff is to give newbies residency and
+help them out. You are also completely responsible to the administrator who
+sponsored you, just as they are responsible for anything you do.
+
+	Remember to use the commands fairly and in an unbiased way, naturally
+anybody who is found abusing the commands (ie ejecting newbies for a laugh..)
+will be roasted over hot coals.  If you have any questions then ask your
+sponsor..
+
+	To help you be a help to other people, you now get to play with some
+new commands, which have helpfiles, which you can read in the usual way (For
+those of you who never bothered to use the help, the syntax is: 'help
+<command>' :-) ).  These commands are:
+
+	eject		newbies		privs
+	resident	su		suemote
+	list_su		list_new	boot
+	off_duty	assist		reset_session
+	warn
+

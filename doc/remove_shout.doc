@@ -1,0 +1,15 @@
+
+remove_shout - Gee, I wonder what this one does?  Well, for those of you that
+		didn't guess (and how the HELL you got to be a superuser I'll
+		never know), this command is used to remove someone's ability
+		to shout (get it now?).  It's given two arguments, of which
+		one - the second - is optional.  The second argument is used
+		to determine how long someone should be prevented from
+		shouting for, and is measures in minutes.  remove_shout'ing
+		someone for a value of -1 will permanently stop them from
+		shouting, and a value of 0 will allow them to shout again.
+		Alternatively, just 'remove_shout name' will allow the named
+		person to shout again.
+
+  Format: remove_shout <name> <time>
+

@@ -1,0 +1,13 @@
+
+  blankpass - This command is used to blank a resident's password.  DON'T use
+		it without proof of identity, though.  If someone logs in, and
+		asks you to blank the password of a resident character, then:
+		If their email address is publicly readable (ie, if you do
+		finger <name> you see an email address in there), then get
+		them to email you from that account, requesting a password
+		blank.  If their email address is NOT public, then tell them
+		that they'll have to get an administrator to sort their
+		problem.
+
+  Format: blankpass <name> [<new_password>]
+

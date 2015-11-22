@@ -1,0 +1,12 @@
+
+	With advanced level SuperUser privs, come a whole load of shiny new
+commands, and a whole load more responsibilities too.  By now you should have
+got the hang of being an SU, and the responsibilities are basically the same,
+except now of course you may have to keep the basic SU's in line.
+
+	The extra commands that you have are..
+
+	banish		blankpass	list_res
+	nuke		squish		remove_shout
+	reset_squish	splat		validate_email
+

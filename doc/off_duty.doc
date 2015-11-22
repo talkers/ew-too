@@ -1,0 +1,10 @@
+
+  off_duty - This is the command to use when you feel like a bit of peace and
+		quiet, and don't want to be bugged for help.  When you
+		activate it, all your superuser abilities (apart from the
+		ability to return to duty) are disabled; you're functionally
+		equivalent to a normal resident.  To go back on duty, just
+		use the on_duty command.
+
+  Format: off_duty
+

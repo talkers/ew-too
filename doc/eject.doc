@@ -1,0 +1,10 @@
+
+  eject	- This command is used to throw a newbie (ie, a non-resident
+		character) off the program.  Don't use it for fun, it's there
+		for use when a newbie is being abusive of offensive, and won't
+		take the hint that they're not appreciated.  That said, don't
+		hesitate to eject someone who IS being truly offensive, or who
+		logs in with an offensive name.
+
+  Format: eject <name> <reason for ejection>
+

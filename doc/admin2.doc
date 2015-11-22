@@ -1,0 +1,49 @@
+
+list_all_notes		- Lists all the notes in all the buckets (pointless
+			  but interesting)	
+list_su			- Lists all the superusers (and their rank) that
+			  are logged onto the program.
+list_new		- Lists all the newbies on the program.
+make			- create a character, takes arg of name, and
+			  email address sets the password of the
+			  character to the same as the name
+			  (this should be used for when the person
+			  isn't on 'resident' should be used otherwise)
+malloc			- various memory things
+newbies			- open / close the prog to newbies
+nuke			- wipes the player file from someone. If the
+			  someone is on the program, kick them off.
+			  (this is also the way to unbanish someone)
+privs			- can be used with argument to give privs of
+			  someone else (not necessarily on the program
+			  either) 
+resident		- make someone a resident (this should be used
+			  in preference to 'grant whoever residency'
+			  as it gives all the proper messages) 
+remove			- remove a priv from someone (works directly
+			  on player files too)
+remove_shout		- removes shout from someone for a period.
+			  positive argument removes for that length of
+			  time (in seconds). Negative argument removes
+			  permanently. (an argument of 1 resets the 
+			  counter so the player can shout again)
+remove_note		- destroy a note in the note tables (to be
+			  used only with stray notes that don't appear
+			  tagged anywhere, or for cleaning up purposes)
+reset_squish		- Allows someone to log on, if they have been
+			  prevented from doing so by the squish command.
+restore			- load player files up from the disk (DON'T USE)
+reload			- reload various info files (ie help / motd / 
+			  the connections messages, site banish list,
+			  etc etc) so editing of said messages can be
+			  done on the fly
+seeecho			- toggle on and off whether you see who echoes
+			  what.
+site			- list people who have connected from the same
+			  domain or host. Argument can be IP number
+			  with * wildcards, or name of someone on the
+			  prog 
+su			- message to superusers only (from eject
+			  upwards) on the prog
+splat			- This squishes someone, and then bans their site
+			  _totally_ for a minute.

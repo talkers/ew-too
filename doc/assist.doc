@@ -1,0 +1,11 @@
+
+  assist - This is a simple command, essentially to avoid the situation where
+		someone asks for help, and half-a-dozen superusers all offer
+		to help, and the poor person needing help is left frantically
+		telling to them all that they've already had offers of help.
+		When you 'assist' someone, they get a message that you're
+		willing to help, and all other connected SU's get a message
+		that you are helping the named person.
+
+  Format: assist <name>
+

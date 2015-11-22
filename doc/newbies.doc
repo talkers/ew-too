@@ -1,0 +1,16 @@
+
+  newbies - This command can be used to temporarily close off EW-too to
+		non resident characters.  Use this if there are a series of
+		people logging in as newbies, and being offensive, and it's
+		becoming too much hassle to keep ejecting them all.  The
+		command can be used as a toggle, but is best used if given an
+		argument.  The arguments are:
+		? - will tell you whether the program is open or closed to
+			newbies.
+		on - will close the program to newbies, and send a message to
+			all connected SU's to tell them this.
+		off - will reopen the program, and inform connected SU's of
+			this.
+
+  Format: newbies <on / off / ?>
+

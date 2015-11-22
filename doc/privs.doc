@@ -1,0 +1,9 @@
+
+  privs - Lets you look at the priv level of another user.  Otherwise, it's
+		functionally identical to the way the privs command worked
+		back when you were a resident.  In other words, it will give
+		you a list of all the privileges that the names user has.  If
+		given no argument, it will tell you what your own privs are.
+
+  Format: privs <name>
+

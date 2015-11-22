@@ -1,0 +1,880 @@
+:general
+
+			   How to use help
+			   ---------------
+ It is hugely recommended that you read help pages 1 though 14 for a
+    quick guide on the commands available and general information.
+			 (Do help 1 ... etc)
+
+	       help index gives an index to pages 1-21
+
+	 help <command> now gives help on individual commands
+
+	Thanks to Batfink for the original help files, Sparrow for 
+          the updated ones, and Xolf for some of the others...
+                (And Ulyanov for the spell checking :)
+
+:newbie
+			   How to use help
+			   ---------------
+ It is hugely recommended that you read help pages 1 though 14 for a
+    quick guide on the commands available and general information.
+			 (Do help 1 ... etc)
+	       help index gives an index to pages 1-21
+	   help <command> gives help on individual commands
+
+        Do 'help rooms' 'help lists' and 'help basic' to get a
+           basic overview of what some of the commands do.
+
+Look around and enjoy the place. If you would like a permanent account
+   then ask around for 'residency' and you'll usually find there's
+		 someone around who can help you out.
+
+:0,index
+
+				Index
+				-----
+
+	1	- general communication
+	2	- information commands
+	3	- customisation commands
+	4	- how to move around
+	5	- list commands
+	6	- news mode and commands
+	7	- mail mode and commands
+	8	- commands to check things
+	9	- room mode and commands
+	10	- more room commands
+	11	- the editor, and associated commands
+	12-15	- miscellaneous bits that don't fit elsewhere
+	harass  - concerning sexual harassment
+
+        Do 'help room' 'help list' and 'help basic' to get a
+           basic overview of what some of the commands do.
+
+:1,com,communication,communicate
+
+			General Communication
+			---------------------
+
+  say (' ` ") 	- say a message to people in the same room as you.
+  emote (: ;)	- emote an action to people in the same room.
+  remote (<) 	- an emote , but to a particular person(s).
+  pemote (::)	- possessive emote (puts 's after your name).
+  premote (<:)	- a pemote, but to a particular person(s).
+  shout (!)	- shout something to everyone on the program.
+  tell (>)	- tell a particular person(s) anywhere in the program.
+  whisper (=)	- whisper to a person(s) in the same room as you.
+  echo		- echo to people in the same room as yourself.
+  recho		- like echo, but to a particular person(s).
+  converse	- a typing shortcut where everything you type will be
+		  'said' to the room you are in.
+
+:2,information,info
+
+			     Information
+			     -----------
+
+  who 		- lists who is currently on the program. (who 2 etc)
+  swho		- a brief version of 'who'
+  qwho/fwho     - show which of your friends are on. (see help list)
+  twho          - does a 'who' with titles, not session messages.
+  where		- lists where everyone (or a particular person) is.
+  with		- lists who a particular person is with.
+  hide		- make it so no-one will know where you are.
+  idle		- shows when someone (or everyone) last did something
+  idlemsg	- set a message to say why you're idle.
+  examine (x)	- show info about a person who is logged in
+  finger	- show info about someone who isn't logged in.
+  look (l)	- show the room you are in, and who is in it.
+  time		- show the local time
+  commands	- a list of every command you can do
+  privs		- a list of abilities you have.
+  grabable	- lists who you can grab.
+
+:3,customise,customisation
+
+			    Customisation
+			    -------------
+
+  title		- change the message after your name.
+  prefix	- change the message before your name.
+  description   - write a little description of yourself.
+  plan		- a message for when you're not on the program.
+  prompt	- set the normal prompt to something.
+  cprompt	- set the prompt as seen in converse mode.
+  password	- set your password
+  email		- set your email address
+  public	- make your email address public for everyone to see
+  gender	- change your sex
+  entermsg	- change the message people see when you enter a room
+  ghome		- toggle whether you get transferred to your home
+		  when you log in.  
+  recap 	- change the capitalisation of your name
+  age		- set your age (0 turns off)
+  birthday	- set your birthday (0 turns off)
+
+:4,moving,move
+
+			    Moving Around
+			    -------------
+
+  go		- move to an adjacent room.
+  trans		- move to any room (if you know its i.d.).
+  home		- go home.
+  visit		- visit a person in their home.
+  hilltop	- go back to the hilltop.
+  leave		- same as hilltop.
+  exits		- find out where you can 'go'
+  check room	- find out the name/id of the room you are in
+  grab		- grab someone into the same room as yourself.
+  join		- join someone in the room they are in
+
+:5,list
+
+			      Your List
+			      ---------
+
+  list		- view your list
+  clist		- clear entries in your list
+  slist		- set particular flags in particular entries
+  rlist		- reset particular flags in particular entries
+  tlist		- toggle particular flags in particular entries
+  noisy,ignore, } 
+  inform,grabme,} toggle, set or reset flags according to which 
+  friend,bar,   } command is used on a particular person or 
+  invite,beep,	} persons in your list
+  block		}
+
+:6,news
+
+			      Using News
+			      ----------
+
+  check news	- see what news there is
+  news		- do a news command, or enter news mode
+
+Via the news command, or whilst in news mode
+
+  read		- read a news article
+  view 		- view all articles
+  (a)reply	- reply to a posting (via mail) (prepend 'a' for
+		  anonymous reply)
+  (a)post	- post an article
+  (a)followup	- post an article referring to a previous article
+  remove 	- remove one of your posts
+  end		- exit sub command mode
+
+:7,mail
+
+			      Using Mail
+			      ----------
+
+  check mail	- see what's in your mailbox
+  mail		- do a mail command, or enter mail mode
+
+Via the mail command, or whilst in mail mode
+  read		- read a piece of mail to you
+  view 		- view the mail you have received
+  (a)post	- post mail to a person or persons (prepend 'a' to
+		  post anonymously)
+  (a)reply	- reply to a piece of mail
+  delete	- delete mail you have received
+  inform	- toggle whether you get informed of new mail for you
+  sent		- show what mail you have sent.
+  remove	- remove mail that you have sent
+  noanon	- toggle whether you will be able to receive anonymous
+		  mail 
+  end		- exit sub command mode
+
+:8,checking,check
+
+			   Checking things
+			   ---------------
+
+  check mail	- view your mailbox
+  check news	- view the news
+  check exits   - view the exits in the room
+  check autos   - see the automessages in a room
+  check room    - list info about a room
+  check rooms   - list your rooms
+  check email   - see what your email address is set to
+  check wrap    - check the line/word wrap stats
+  check entry	- check the entry for your name, on someone else's list.
+
+:9,room
+
+			   Stuff for Rooms
+			   ---------------
+
+  lock		- lock the room you are in.
+  room		- do a room command, or enter room mode
+
+Via the room command, or whilst in room mode
+  edit		- edit the description for the room.
+  sethome	- make this room your home
+  lock		- lock a room
+  lockable	- make your room lockable by others apart from you
+  open 		- make it so anybody can enter a room
+  entermsg	- set the message that other people will see when
+		  someone leaves a room to enter this room
+  [+-]exit	- add or remove an exit to another room (+ to add, -
+		  to remove)
+
+			Continued on 'help 10' or 'help room-more'
+
+:10,room-more
+
+			   More Room Stuff
+			   ---------------
+
+Via the room command, or whilst in room mode
+  id		- set the id of the room
+  name		- set the name of the room
+  info		- give some info about the room
+  check		- info about all your rooms
+  [+-]auto    	- add or remove an automessage (+ to add a message, -
+		  to remove one)
+  speed		- change the speed of the automessages
+  autos[on/off] - automessages, or turn them on or off
+  delete        - delete a room
+  create	- create a room
+  end 		- end sub command mode
+  
+:11,editor,edit
+
+			      The Editor
+			      ----------
+
+      Lines not starting with / or . are inserted into the text.
+
+  .del		- delete the current line
+  .-		- go back a line
+  .+		- go forward a line
+  .view		- see what you've written
+  .l		- view the current line
+  .g		- goto a line
+  .top		- goto the top
+  .bot		- goto the bottom
+  .wipe		- completely clear the buffer
+  .stats	- show some stats about the buffer
+  .quiet	- toggle whether you go into 'quiet' mode when editing 
+  .end		- quit the editor and KEEP the changes
+  .quit		- quit the editor and THROW AWAY any changes
+
+:pager,page
+
+			    The Pager
+			    ---------
+
+  b or p	   - Back 1 page.
+  f or n	   - Forward 1 page.
+  t 		   - Go to the top of what is being paged.
+  q  		   - Quit.
+  
+          Anything else will just re-print the same page.
+
+:12,misc,miscellaneous
+
+			    Miscellaneous
+			    -------------
+
+  blocktells	- ignore any tells to you.
+  earmuffs	- ignore any shouts.
+  quiet		- go quiet, ignore shouts and tells
+  linewrap	- turn off, or set the width of your terminal
+  wordwrap	- turn off, or set the largest word that will
+		  trigger wrapping
+  show		- show what sort of command, some text has originated
+		  from.
+  hitells	- high-lights any personal messages for you.
+  quit		- leave the program
+
+:15,credits
+
+			       Credits
+			       -------
+
+	   This program is based on the EW-too source code
+		 which was coded 92/93 by Simon Marsh.
+
+          Further hacking done later in 93 by Chris Hughes
+
+  Thanks go to all the other people who have spent many hours making
+ the program what it is now, especially those site admin who have put
+                  taken time out to put up with me.
+
+:|,pipe 
+	 A way of directing text to several different people.
+
+	  Format: <emote/shout/say/echo> <msg> | <user list>
+	    (see 'help ulist' for help on <user list>)
+
+        Example     emote smiles at you. | batfink,burble
+
+	You will see : 
+         	You Emote : Spang smiles at Batfink and Burble.
+
+	Batfink sees (as a personal message)
+		Spang smiles at you and Burble.
+
+	Burble sees (as a personal message)
+		Spang smiles at Batfink and you.
+
+	Everyone else in the room sees (as a room message) :
+		Spang smiles at Batfink and Burble.
+:say,',`,"
+  
+  say (' ` ") 	- say a message to people in the same room as you.
+		  (see also 'help |')  
+
+  Format: say <msg>
+
+:',`,"
+
+  short hand for 'say'. 
+  say (' ` ") 	- say a message to people in the same room as you.
+  		  (see also 'help |')  
+
+  Format: say <msg>
+  
+:emote,:,;
+
+  emote (: ;)	- emote an action to people in the same room.
+		  (see also 'help |')  
+
+  Format: emote <msg>
+  
+::,;
+
+  Short hand for 'emote'. 
+  emote (: ;)	- emote an action to people in the same room.
+		  (see also 'help |')  
+
+  Format: emote <msg>
+ 
+:remote,<
+
+  remote (<) 	- an emote , but to a particular user list.
+  (see 'help ulist' for help on <user list>)
+
+  Format: remote <user list> <msg>
+
+:<
+
+  Short hand for 'remote'. 
+  remote (<) 	- an emote , but to a particular user list
+  (see 'help ulist' for help on <user list>)
+
+  Format: remote <user list> <msg>
+
+
+:pemote,::
+
+  pemote (::)	- possessive emote (puts 's after your name).
+
+  Format: pemote <msg>
+
+:::
+
+  Short hand for 'pemote'
+  pemote (::)	- possessive emote (puts 's after your name).
+
+  Format: pemote <msg>
+
+:premote,<:
+
+  premote (<:)	- a pemote, but to a particular user list.
+
+  Format: premote <user> <msg>
+
+:<:
+
+  Short hand for 'premote'
+  premote (<:)	- a pemote, but to a particular user list.
+
+  Format: premote <user> <msg>
+
+
+:shout,!
+
+  shout (!)	- shout something to everyone on the program
+		  (see also 'help |')  
+
+  Format: shout <msg>
+
+  PLEASE NOTE: Shouts with excessive nonalphabetic characters and such 
+  like that is thought to be annoying, and could result in you shouts
+  being temporarily or permanently removed. A good rule of thumb is that
+  any given shout should have no more than a couple dashes or
+  asterisks added for emphasis.
+:!
+
+  Short hand for 'shout'
+  shout (!)	- shout something to everyone on the program.
+		  (see also 'help |')  
+
+  Format: shout <msg>
+
+
+:tell,>
+
+  tell (>)	- tell a particular user list anywhere in the program.
+  (see 'help ulist' for help on <user list>)
+
+  Format: tell <user list> <msg>
+
+:>
+
+  Short hand for 'tell'
+  tell (>)	- tell a particular user list anywhere in the program.
+  (see 'help ulist' for help on <user list>)
+
+  Format: tell <user list> <msg>
+
+:whisper,=
+
+  whisper (=)	- whisper to a user list in the same room as you.
+  (see 'help ulist' for help on <user list>)
+
+  Format: whisper <user list> <msg>
+
+:=
+
+  Short hand for 'whisper'
+  whisper (=)	- whisper to a user list in the same room as you.
+  (see 'help ulist' for help on <user list>)
+
+  Format: whisper <user list> <msg>
+
+:echo
+
+  echo		- echo to people in the same room as yourself.
+		  (see also 'help |')  
+
+  Format: echo <msg>
+
+:recho
+
+  recho		- like echo, but to a particular user list.
+  (see 'help ulist' for help on <user list>)
+
+  Format: recho <user list> <msg>
+
+:converse
+
+  converse	- a typing shortcut where everything you type will be
+		  'said' to the room you are in. To leave 'converse' 
+		  mode type '/end'.
+		  Normal commands can be used if prepended by /
+		  i.e. '/emote smiles.'
+
+Format: converse
+
+:who
+
+  who 		- lists who is currently on the program. (who 2 etc)
+
+:swho
+
+  swho		- a brief version of 'who'
+
+:qwho,fwho
+
+  qwho/fwho     - show which of your friends are on. (see help list)
+
+:twho
+
+  twho          - shows a 'who' with titles, rather than session messages.
+:where
+
+  where		- lists where everyone (or a particular user) is.
+
+  Format: where <user>
+
+:with
+
+  with		- lists who a particular user is with.
+
+  Format: with <user>
+
+:hide
+
+  hide		- make it so no-one will know where you are.
+
+:idle
+
+  idle		- shows when someone (or everyone) last did something
+
+  Format: idle <user> (omit user to see everyone)
+
+:idlemsg
+
+  idlemsg	- set a message to say why you're idle.
+
+  Format: idlemsg <message>
+
+:examine,x
+
+  examine (x)	- show info about a user who is logged in
+
+  Format: examine <user>  or
+          x <user>
+
+:finger
+ 
+  finger	- show info about someone who isn't logged in.
+
+  Format: finger <user>
+
+:look,l
+
+  look (l)	- show the room you are in, and who is in it.
+
+:time
+
+  time		- show the local time and a couple of .
+
+:commands
+
+  commands	- a list of every command you can do
+
+:privs
+
+  privs		- a list of abilities you have.
+
+:grabable
+
+  grabable	- lists who you can grab.
+
+:title
+
+  title		- change the message after your name.
+
+  Format: title <msg>
+
+:prefix
+
+  prefix	- change the message before your name.
+
+  Format: prefix <msg>
+
+:description,desc
+
+  description   - write a little description of yourself.
+
+  Format: description <msg>
+
+:plan
+
+  plan		- a message for when you're not on the program.
+
+  Format: plan <msg>
+
+:prompt
+
+  prompt	- set the normal prompt to something.
+
+ Format: prompt <msg>
+
+:cprompt
+
+  cprompt	- set the prompt as seen in converse mode.
+		  (when already in converse mode use)
+		  (/cprompt			    )
+
+  Format: cprompt <msg>
+
+:password
+
+  password	- just type 'password' and you will be prompted for
+		  either your old password, then the new (if you 
+		  are changing it) or just for the new one (if you
+		  are just starting out).
+
+:email
+
+  email		- set your email address.  this should be your Internet
+		  Email Address.
+
+  Format: email <address>
+
+:public
+
+  public	- make your email address public for everyone to see
+		  (toggles between private and public)
+
+:gender
+
+  gender	- change your sex
+
+  Format: gender m/f/n
+
+:entermsg
+
+  entermsg	- change the message people see when you enter a room
+
+  Format: entermsg <msg>
+
+:ghome
+
+  ghome		- toggle whether you get transferred to your home
+		  when you log in.  
+
+:capitalise
+
+  capitalise	- change the capitalisation of your name
+
+  Format: capitalise <your name, as you wish it to appear>
+
+:age
+
+  age		- set your age (0 turns off)
+
+  Format: age <number>
+
+:birthday
+
+  birthday	- set your birthday (0 turns off)
+
+  Format: birthday <day>/<month>(/<year>)
+
+:go
+
+  go		- move to an adjacent room. the room name must appear if
+		  you type 'exits' for this to work.
+
+  Format: go <roomname>
+
+:trans
+
+  trans		- move to anyroom (if you know its id).
+
+  Format: trans <userid.roomid>
+
+:home
+
+  home		- go home.
+ 
+:visit
+
+  visit		- visit a user in their home.
+
+  Format: visit <user>
+
+:hilltop
+
+  hilltop	- go back to the hilltop.
+
+:leave
+
+  leave		- go back to the hilltop.
+
+:exits
+
+  exits		- find out where you can 'go'
+
+:grab
+
+  grab		- grab someone into the same room as yourself.
+
+  Format: grab <user>
+
+:join
+
+  join		- join someone in the room they are in
+
+  Format: join <user>
+
+:clist
+
+  clist		- clear all entries of a specified user in your list.
+
+  Format: clist <user>
+
+:slist
+
+  slist		- set particular flags in particular entries
+		  (see 'help ulist' for help on <user list>)
+
+  Format: slist <user list> <flag list>
+
+:rlist
+
+  rlist		- reset particular flags in particular entries
+		  (see 'help ulist' for help on <user list>)
+
+ Format: rlist <user list> <flag list>
+
+:tlist
+
+  tlist		- toggle particular flags in particular entries
+                  (see 'help ulist' for help on <user list>)
+
+  Format: tlist <user list> <flag list>
+
+:noisy
+
+  noisy         - Allows you to hear a user through 'blocktells'
+   		  'ignore' and 'block'
+                  (see 'help ulist' for help on <user list>)
+
+  Format: noisy <user list>
+ 
+:ignore 
+
+  ignore	- Allows you to 'ignore' someone.
+                  (see 'help ulist' for help on <user list>)
+
+  Format: ignore <user list>
+
+:inform
+
+  inform	- Informs you when <user> logs in.
+                  (see 'help ulist' for help on <user list>)
+
+  Format: inform <user list>
+
+:grabme
+
+  grabme 	- Allows yourself to be 'grabbed by someone
+		  else.
+                  (see 'help ulist' for help on <user list>)
+
+  Format: grabme <user list>
+
+:friend
+
+  friend	- Puts your 'friend' on the checklist for
+		  qwho/fwho. See also qwho or fwho
+                  (see 'help ulist' for help on <user list>)
+
+  Format: friend <user list>
+
+:bar
+
+  bar		- Bars someone from entering your rooms. 
+		  Once barred, this user cannot enter, no
+		  matter what.
+                  (see 'help ulist' for help on <user list>)
+
+  Format: bar <user list>
+
+:invite
+
+  invite 	- Allows the invited user to enter your
+	 	  room, when you have set it to invites only,
+	 	  or when it is open to all.
+                  (see 'help ulist' for help on <user list>)
+
+  Format: invite <user list>
+
+:beep
+
+  beep		- Sends a beep to your terminal when <user>
+		  logs in.
+                  (see 'help ulist' for help on <user list>)
+
+  Format: beep <user list>
+
+:block
+
+  block		- Stops a user from 'telling to you.
+                  (see 'help ulist' for help on <user list>)
+
+  Format: block <user list>
+
+:lock
+
+  lock		- lock the room you are in. this works as a toggle.
+
+:blocktells
+
+  blocktells	- ignore any tells to you. this works as a toggle.
+
+:earmuffs
+
+  earmuffs	- ignore any shouts.  this works as a toggle.
+
+:quiet
+
+  quiet		- go quiet, ignore shouts and tells.  this works as a toggle.
+
+:linewrap
+
+  linewrap	- turn off, or set the width of your terminal
+
+  Format: linewrap off/<term width>
+
+:wordwrap
+ 
+  wordwrap	- turn off, or set the largest word that will
+		  trigger wrapping
+
+  Format: wordwrap off/<max word size>
+
+:show
+
+  show		- show what sort of command, some text has originated
+		  from. 'show' on it's own will tell you what it which
+		  options(below) will be shown to you.
+
+  Format: show echo,tell,room,shout,autos
+
+:hitells
+
+  hitells	- high-lights any personal messages for you.
+		  Terminal types available : xterm, vt220, vt100,
+		  vt102, sun, ansi, wyse-30, tv1912
+
+  Format: hitells <termype/?/off>
+
+:quit
+
+  quit		- leave the program
+
+:resident,residency
+
+  To obtain RESIDENCY ask a registered user if he/she/it knows of a SU who
+  can, or failing that, shout. Someone will eventually hear your cry...
+
+:ulist
+
+  <user list>   - several commands may be followed by a 'user list', which
+		  is just that, a list of users.  A user list may be one 
+		  name long, or a string of names, seperated by commas (,).
+
+   Example: tell burble,ecthelion,footsteps Hi there, Administrators!
+		  This would send your tell to all three people.
+
+:emergency
+
+  emergency 	- If there is a problem with someone on the program
+		  ie, they are being rude/abusive, and there is no
+		  Super User to take action against the offending 
+		  party, this command makes a script of everything
+		  that happens for the next 60 seconds.
+		  It is implemented by typing 'emergency'
+		  To which the program replies:
+You must give a reason for starting emergency scripting as an argument.
+(And the reason better be good ...)
+
+		  Then you enter a reason why you started the scripting.
+		  e.g.:
+	Abusive behaviour from Spang
+
+		  For the next 60 seconds, anything that anybody says will
+		  be logged to a file, however, you may stop scripting
+		  at any time by typing 'emergency stop'.
+
+IF THIS COMMAND IS ABUSED, BE PREPARED TO TAKE THE CONSEQUENCES!!!!!
+
+:spod
+spod - a sad computer person, nerd, someone who habitually is found slumped
+	over a computer keyboard as the first rays of sunlight emerge. (See
+	Grim, druss, turin, Chris, Bulger, Jonathan, Stork, bOoMaRaNg, SlyDog, 
+	Ulyanov, Wolffman, Burble, Zot, Athanasius, etc).  Feminine form,
+	spoddess (See VeroniQue, Carrie, Chastity, Sparrow, Cosette, Iris, 
+	Artemis, etc - Yes, the men outnumber the women.)
+
+

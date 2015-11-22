@@ -1,0 +1,50 @@
+
+squish                  - boot anybody off the program (as opposed to
+			  eject that only works on non ressies)
+			  No reason is necessary as it is assumed
+			  people with squish will know for sure what
+			  they are doing.
+			  It prevents them from logging on for a set time
+			  (defaults to a minute).
+shutdown		- shut the program down
+sync			- sync the player file according to first
+			  letter of the arg (dump to disk, probably be
+			  a delay too, maybe of a second or so)
+test			- test fn, DON'T USE
+unlink			- remove someone from the room link tables
+			  leaving them 'nowhere' (would probably crash
+			  the prog)
+unbanish  		- Unbanishes a person, unless they don't properly
+			  exist, in which case it nukes the name.
+validate_email		- sets a flag in someone's email to make it
+			  valid so that the player will save. This is
+			  for use only with people who swear they
+			  haven't got an email address (if the email
+			  is left blank, or not validated, their
+			  character would not save) 
+view_note	        - allows viewing of info about a note	
+where			- shows people who are hidden as well.
+wall			- non blockable shout, with beep to everyone
+			  on the program
+
+
+extra sub commands ....
+
+check :
+
+mail		        * allows argument of a person to view headers
+			* of incoming mail. shows note number of mail
+			* in brackets
+			* shows identities of anonymous posters
+news	     		- shows note number of each post in brackets
+			  also shows idents of anonymous posters
+			  [] round name instead of ()
+rooms			- takes argument of a person to give info
+			  about their rooms (also works on system rooms)
+res_list		- same as list_res
+updates			- view file syncing info. Any letter with a *
+			  is waiting to be synced to disk
+info			- check resident info and data about a person
+ip			- show ip addresses of everyone logged in
+mails			- show email addresses of everyone logged in
+
